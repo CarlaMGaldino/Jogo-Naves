@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Naves</title>
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="fundoGame">
+            <div id="inicio" onclick="start()">
+                <h1> Resgate </h1>
+                <p>Utilize a tecla ↑ para movimentar o helicóptero para cima, a tecla ↓ para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+                <p> Clique aqui para iniciar!! </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sons do jogo ! -->
+    <audio src="assets/audios/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="assets/audios/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="assets/audios/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="assets/audios/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="assets/audios/perdido.mp3" preload="auto" id="somPerdido"></audio>
+    <audio src="assets/audios/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts/main.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+</body>
+<footer>
+    <p>Desenvolvido por <a href="https://github.com/CarlaMGaldino" target="_blank" rel="noopener noreferrer">Carla Galdino</a></p>
+</footer>
+
+</html>
