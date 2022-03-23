@@ -1,3 +1,3 @@
 # Jogo-Naves-Projeto-DIO
 
-Desenvolvimento jogo de naves Bootcamp Dio
+## Jogo de naves Bootcamp Dio
